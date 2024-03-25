@@ -15,6 +15,7 @@ bands.sort(customSort);
 
 bands.forEach((element) => {
     let listItem = document.createElement('li');
+	listItem.classList = "listField"
     listItem.textContent = element;
     unorderedList.appendChild(listItem);
 });

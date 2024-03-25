@@ -15,8 +15,11 @@ bands.sort(customSort);
 
 bands.forEach((element) => {
     let listItem = document.createElement('li');
-	let horizontal = document.createElement('hr');
-	listItem.classList = "listField"
     listItem.textContent = element;
     unorderedList.appendChild(listItem);
+
+    // Create and append horizontal line
+    let horizontal = document.createElement('hr');
+	horizontal.classList ="lineHr"
+    unorderedList.appendChild(horizontal);
 });

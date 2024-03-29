@@ -17,9 +17,4 @@ bands.forEach((element) => {
     let listItem = document.createElement('li');
     listItem.textContent = element;
     unorderedList.appendChild(listItem);
-
-    // Create and append horizontal line
-    let horizontal = document.createElement('hr');
-	horizontal.classList ="lineHr"
-    unorderedList.appendChild(horizontal);
 });

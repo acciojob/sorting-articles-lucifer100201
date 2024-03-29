@@ -3,18 +3,17 @@
 	display:flex;
 	align-items:center;
 	justify-content:center;
-	
 	background-image:url(https://images.unsplash.com/photo-1710795290935-222baae9b9b4?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 	
 }
 
-#band{
+#bands{
 	background-color:#fff;
 	box-shadow: 5px 5px 5px 8px rgba(0, 0, 0, 0.3);
 	width:60%;
 }
 
-#band li{
+#bands li{
 	margin-top:20px;
 	margin-bottom:20px;
 }
